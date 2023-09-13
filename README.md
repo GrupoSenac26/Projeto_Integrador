@@ -1,6 +1,6 @@
-# Diagramas de Caso de Uso
-Movimentação do Aluno:
+## Diagramas de Caso de Uso
 
+# Movimentação do Aluno:
 
 1.	Entrar com Login e Validar: Este caso de uso permite que um aluno entre no sistema utilizando seu login e senha, e valide suas credenciais.
 
@@ -49,3 +49,43 @@ Movimentação do Aluno:
      -  O aluno seleciona uma apostila para visualização;
      -  O sistema exibe a apostila selecionada na página.
 -	Pós-condição: O aluno visualiza a apostila selecionada no sistema.
+
+
+# Gerenciamento de Professores:
+
+1.   Cadastrar um professor novo: Este caso de uso permite que um membro da Secretaria registre um novo professor no sistema.
+
+-    Pré-condição: O secretário deve estar autenticado no sistema.
+-    Cenário principal:
+     -  O secretário acessa a página de registro de usuários no sistema;
+     -  O secretário escolhe a opção para o registro de professores;
+     -  O secretário preenche os dados do novo professor na página;
+     -  O sistema insere os dados do novo professor na base de dados.
+-    Pós-condição: O secretário visualiza o perfil do professor no sistema.
+
+2. Gerar relatório de professores: Este caso de uso permite que um membro da Secretaria consulte os professores registrados no sistema.
+
+-    Pré-condição: O secretário deve estar autenticado no sistema.
+-    Cenário principal:
+     - O secretário acessa a página de relatórios no sistema;
+     - O secretário localiza e acessa o link do relatório professores cadastrados no sistema;
+     - O sistema exibe o relatório de professores na página.
+-    Pós-condição: O secretário visualiza o relatório de professores cadastrados no sistema.
+
+
+# Cadastro de Colaboradores de Pessoa Jurídica:
+
+1. Cadastrar Colaboradores de Empresa Terceirizada prestadora de serviço de Limpeza na unidade de Ensino: Este caso de uso permite que a Pessoa Jurídica (representante da empresa contratada) cadastre os dados pessoais dos colaboradores, a fim de manter o controle de acesso à Unidade de Ensino.
+
+-   Descrição: Cadastro dos dados pessoais dos colaboradores para manter o controle de acesso à Unidade de Ensino.
+-   Pré-Condição: Inclusão de colaboradores na base de dados é feita após o cadastro dos dados de Pessoa Jurídica.
+-   Atores: Secretaria e Pessoa Jurídica
+-   Prioridade: Essencial
+
+-   Cenário Principal:
+    -  A tela de login do sistema Decision é iniciada.
+    -  O representante da empresa contratada (Pessoa Jurídica) insere os dados pessoais dos colaboradores.
+    -  A secretaria aprova o cadastro dos dados dos colaboradores no sistema.
+    -  O sistema Decision insere os dados de cada colaborador na base de dados associada à respectiva pessoa jurídica.
+
+-   Pós-Condição: O sistema possui relacionado cada colaborador com a respectiva empresa à qual faz parte.
