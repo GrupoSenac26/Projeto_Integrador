@@ -1,12 +1,12 @@
 ## Diagramas de Caso de Uso
 
-# Cadastro de Alunos:
+# Cadastro de Usuários:
 
-A tela abaixo apresenta todas as informações necessárias para cadastrar o indivíduo no sistema, permitindo a seleção precisa do tipo de pessoa a ser cadastrada, neste caso, os alunos.
+- Este documento descreve os casos de uso do sistema de cadastro de usuários.
 
 ![Cadastro de dados selecionando o tipo de pessoa](Cadastro%20de%20dados%20selecionando%20o%20tipo%20de%20pessoa.png)
 
-# Movimentação do Aluno:
+# Movimentação do Usuário:
 
 1.	Entrar com Login e Validar: Este caso de uso permite que um aluno entre no sistema utilizando seu login e senha, e valide suas credenciais.
 
@@ -18,6 +18,17 @@ A tela abaixo apresenta todas as informações necessárias para cadastrar o ind
      -  O sistema autentica o aluno e permite o acesso ao sistema;
      -  O sistema exibe a página principal do aluno.  
 -	Pós-condição: O aluno é autenticado no sistema e pode acessar as funcionalidades disponíveis para sua conta.
+
+-	1.	Entrar com Login e Validar: Este caso de uso permite que um usuário entre no sistema utilizando seu login e senha, e valide suas credenciais.
+
+-	Pré-condição: O usuário deve estar registrado no sistema e ter credenciais válidas (login e senha).
+-	Cenário principal:
+     -  O usuário acessa a página de login do sistema;
+     -  O usuário insere seu login e senha nos campos correspondentes;
+     -  O sistema verifica se as credenciais estão válidas;
+     -  O sistema autentica o usuário e permite o acesso ao sistema;
+     -  O sistema exibe a página principal do usuário.
+-  Pós-condição: O usuário é autenticado no sistema e pode acessar as funcionalidades disponíveis para sua conta.
 
 A tela abaixo mostra como seria feito o login utilizando e-mail e senha.
 
@@ -31,14 +42,14 @@ Feito o login corretamente, o usuário chegará na tela a seguir onde todas as o
 
 ![Pagina inicial de aluno](Pagina%20inicial%20de%20aluno.png)
 
-2.	Verificar dados do perfil: Este caso de uso permite que um aluno visualize seus dados de perfil registrados no sistema.  
+2.	Verificar dados do perfil: Este caso de uso permite que um usuário altere seus dados de perfil registrados no sistema.
 
--	Pré-condição: O aluno deve estar autenticado no sistema.
+-	Pré-condição: O usuário deve estar autenticado no sistema.
 -	Cenário principal:
-     -  O aluno acessa a página de perfil no sistema;
-     -  O sistema recupera os dados de perfil do aluno;
-     -  O sistema exibe os dados de perfil do aluno na página.
--	Pós-condição: O aluno visualiza seus dados de perfil no sistema.
+     -  O usuário acessa a página de perfil no sistema;
+     -  O sistema recupera os dados de perfil do usuário;
+     -  O sistema exibe os dados de perfil do usuário na página.
+-	Pós-condição: O usuário visualiza seus dados de perfil no sistema.
 
 3.	Verificar notas: Este caso de uso permite que um aluno consulte suas notas registradas no sistema.
 
