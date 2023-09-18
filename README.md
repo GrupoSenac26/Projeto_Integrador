@@ -1,5 +1,11 @@
 ## Diagramas de Caso de Uso
 
+# Cadastro de Alunos:
+
+A tela abaixo apresenta todas as informações necessárias para cadastrar o indivíduo no sistema, permitindo a seleção precisa do tipo de pessoa a ser cadastrada, neste caso, os alunos.
+
+![Cadastro de dados selecionando o tipo de pessoa](Cadastro%20de%20dados%20selecionando%20o%20tipo%20de%20pessoa.png)
+
 # Movimentação do Aluno:
 
 1.	Entrar com Login e Validar: Este caso de uso permite que um aluno entre no sistema utilizando seu login e senha, e valide suas credenciais.
@@ -12,6 +18,18 @@
      -  O sistema autentica o aluno e permite o acesso ao sistema;
      -  O sistema exibe a página principal do aluno.  
 -	Pós-condição: O aluno é autenticado no sistema e pode acessar as funcionalidades disponíveis para sua conta.
+
+A tela abaixo mostra como seria feito o login utilizando e-mail e senha.
+
+![Primeira tela de login](Primeira%20tela%20de%20login.png)
+
+Com a possibilidade de, caso a senha seja esquecida, refazê-la utilizando o e-mail previamente cadastrado.
+
+![Recuperar senha](Recuperar%20senha.png)
+
+Feito o login corretamente, o usuário chegará na tela a seguir onde todas as outras possíveis movimentações podem ser feitas livremente.
+
+![Pagina inicial de aluno](Pagina%20inicial%20de%20aluno.png)
 
 2.	Verificar dados do perfil: Este caso de uso permite que um aluno visualize seus dados de perfil registrados no sistema.  
 
