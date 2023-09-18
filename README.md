@@ -72,6 +72,11 @@
      - O sistema exibe o relatório de professores na página.
 -    Pós-condição: O secretário visualiza o relatório de professores cadastrados no sistema.
 
+# Cadastro de Pessoa Jurídica
+
+Antes que o cadastro de colaboradores terceirizados seja feito, é necessário que os dados da Pessoa Jurídica associada sejam cadastrados. Para isso, o representante da secretaria deve acessar o sistema e inserir as seguintes informações na tela abaixo: nome/razão social, nome fantasia, CNPJ, endereço, bairro/distrito, UF, município, telefone e inscrição estadual. Todos esses campos são de preenchimento obrigatório. Caso haja alguma observacão, o secretário pode inserí-la no campo Informações adicionais. Após o preenchimento das informações, deve-se clicar no botão Próximo (em destaque na imagem abaixo) para que os dados sejam gravados:
+
+![Pessoa Jurídica](/Pessoa Jurídica.png)
 
 # Cadastro de Colaboradores de Pessoa Jurídica:
 
